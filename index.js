@@ -38,7 +38,10 @@ fetch(url)
         y: {
           beginAtZero: true
         }
-      }
+      },
+    //   aspectRatio: 1|2,
+      responsive: true,
+        maintainAspectRatio: false,
     }
   });
   

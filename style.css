@@ -1,6 +1,30 @@
-.chart {
+.chart-wrapper{
+    /* margin-top: 60px; */
+    /* height: 1000px; */
+}
+
+.chart-container {
+    position: relative; 
+    height:50vh; 
+    width:80vw;
     margin: auto;
-    width: 70%;
-    padding: 10px;
-    height: auto;
+    padding: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+    .chart-container {
+        height: 40vh; 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .chart-container {
+        height: 30vh; 
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .chart-container {
+        height: 20vh; 
+    }
 }
